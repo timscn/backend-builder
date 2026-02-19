@@ -1,0 +1,494 @@
+{
+  "overview": {
+    "total_valid_logs": 51,
+    "total_errors": 49,
+    "unique_users": 5,
+    "unique_features": 4
+  },
+  "parsing_stats": {
+    "total_lines": 100,
+    "valid_logs": 51,
+    "parse_errors": 10,
+    "validation_errors": 39
+  },
+  "user_statistics": {
+    "4": {
+      "total_actions": 12,
+      "features_used": [
+        "chat",
+        "map",
+        "profile",
+        "settings"
+      ],
+      "actions": {
+        "start": 7,
+        "end": 5
+      }
+    },
+    "5": {
+      "total_actions": 13,
+      "features_used": [
+        "chat",
+        "profile",
+        "settings"
+      ],
+      "actions": {
+        "start": 9,
+        "end": 4
+      }
+    },
+    "1": {
+      "total_actions": 7,
+      "features_used": [
+        "chat",
+        "map",
+        "profile",
+        "settings"
+      ],
+      "actions": {
+        "start": 2,
+        "end": 5
+      }
+    },
+    "2": {
+      "total_actions": 14,
+      "features_used": [
+        "chat",
+        "map",
+        "profile",
+        "settings"
+      ],
+      "actions": {
+        "start": 9,
+        "end": 5
+      }
+    },
+    "3": {
+      "total_actions": 5,
+      "features_used": [
+        "chat",
+        "map",
+        "settings"
+      ],
+      "actions": {
+        "start": 2,
+        "end": 3
+      }
+    }
+  },
+  "feature_statistics": {
+    "map": 11,
+    "profile": 14,
+    "settings": 14,
+    "chat": 12
+  },
+  "action_statistics": {
+    "start": 29,
+    "end": 22
+  },
+  "grouped_data": {
+    "4": {
+      "map": [
+        {
+          "user_id": 4,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:01:00Z",
+          "action": "start",
+          "line_number": 1
+        },
+        {
+          "user_id": 4,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:28:00Z",
+          "action": "start",
+          "line_number": 28
+        },
+        {
+          "user_id": 4,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:33:00Z",
+          "action": "start",
+          "line_number": 33
+        },
+        {
+          "user_id": 4,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:39:00Z",
+          "action": "end",
+          "line_number": 39
+        },
+        {
+          "user_id": 4,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:55:00Z",
+          "action": "start",
+          "line_number": 55
+        },
+        {
+          "user_id": 4,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:58:00Z",
+          "action": "end",
+          "line_number": 58
+        }
+      ],
+      "profile": [
+        {
+          "user_id": 4,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:02:00Z",
+          "action": "end",
+          "line_number": 2
+        },
+        {
+          "user_id": 4,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:44:00Z",
+          "action": "start",
+          "line_number": 44
+        }
+      ],
+      "settings": [
+        {
+          "user_id": 4,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:09:00Z",
+          "action": "end",
+          "line_number": 9
+        },
+        {
+          "user_id": 4,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:17:00Z",
+          "action": "end",
+          "line_number": 17
+        }
+      ],
+      "chat": [
+        {
+          "user_id": 4,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:19:00Z",
+          "action": "start",
+          "line_number": 19
+        },
+        {
+          "user_id": 4,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:41:00Z",
+          "action": "start",
+          "line_number": 41
+        }
+      ]
+    },
+    "5": {
+      "profile": [
+        {
+          "user_id": 5,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:03:00Z",
+          "action": "start",
+          "line_number": 3
+        },
+        {
+          "user_id": 5,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:14:00Z",
+          "action": "start",
+          "line_number": 14
+        },
+        {
+          "user_id": 5,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:22:00Z",
+          "action": "end",
+          "line_number": 22
+        },
+        {
+          "user_id": 5,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:35:00Z",
+          "action": "end",
+          "line_number": 35
+        },
+        {
+          "user_id": 5,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:37:00Z",
+          "action": "start",
+          "line_number": 37
+        },
+        {
+          "user_id": 5,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:51:00Z",
+          "action": "start",
+          "line_number": 51
+        }
+      ],
+      "settings": [
+        {
+          "user_id": 5,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:05:00Z",
+          "action": "start",
+          "line_number": 5
+        },
+        {
+          "user_id": 5,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:13:00Z",
+          "action": "end",
+          "line_number": 13
+        },
+        {
+          "user_id": 5,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:23:00Z",
+          "action": "end",
+          "line_number": 23
+        },
+        {
+          "user_id": 5,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:42:00Z",
+          "action": "start",
+          "line_number": 42
+        }
+      ],
+      "chat": [
+        {
+          "user_id": 5,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:31:00Z",
+          "action": "start",
+          "line_number": 31
+        },
+        {
+          "user_id": 5,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:52:00Z",
+          "action": "start",
+          "line_number": 52
+        },
+        {
+          "user_id": 5,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:54:00Z",
+          "action": "start",
+          "line_number": 54
+        }
+      ]
+    },
+    "1": {
+      "settings": [
+        {
+          "user_id": 1,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:04:00Z",
+          "action": "end",
+          "line_number": 4
+        },
+        {
+          "user_id": 1,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:18:00Z",
+          "action": "end",
+          "line_number": 18
+        },
+        {
+          "user_id": 1,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:46:00Z",
+          "action": "start",
+          "line_number": 46
+        }
+      ],
+      "map": [
+        {
+          "user_id": 1,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:07:00Z",
+          "action": "end",
+          "line_number": 7
+        }
+      ],
+      "chat": [
+        {
+          "user_id": 1,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:08:00Z",
+          "action": "start",
+          "line_number": 8
+        },
+        {
+          "user_id": 1,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:36:00Z",
+          "action": "end",
+          "line_number": 36
+        }
+      ],
+      "profile": [
+        {
+          "user_id": 1,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:47:00Z",
+          "action": "end",
+          "line_number": 47
+        }
+      ]
+    },
+    "2": {
+      "chat": [
+        {
+          "user_id": 2,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:06:00Z",
+          "action": "start",
+          "line_number": 6
+        },
+        {
+          "user_id": 2,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:29:00Z",
+          "action": "end",
+          "line_number": 29
+        },
+        {
+          "user_id": 2,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:56:00Z",
+          "action": "start",
+          "line_number": 56
+        }
+      ],
+      "map": [
+        {
+          "user_id": 2,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:16:00Z",
+          "action": "start",
+          "line_number": 16
+        },
+        {
+          "user_id": 2,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:26:00Z",
+          "action": "end",
+          "line_number": 26
+        },
+        {
+          "user_id": 2,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:43:00Z",
+          "action": "start",
+          "line_number": 43
+        }
+      ],
+      "settings": [
+        {
+          "user_id": 2,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:21:00Z",
+          "action": "start",
+          "line_number": 21
+        },
+        {
+          "user_id": 2,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:53:00Z",
+          "action": "end",
+          "line_number": 53
+        },
+        {
+          "user_id": 2,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:59:00Z",
+          "action": "start",
+          "line_number": 59
+        }
+      ],
+      "profile": [
+        {
+          "user_id": 2,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:24:00Z",
+          "action": "start",
+          "line_number": 24
+        },
+        {
+          "user_id": 2,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:34:00Z",
+          "action": "start",
+          "line_number": 34
+        },
+        {
+          "user_id": 2,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:38:00Z",
+          "action": "end",
+          "line_number": 38
+        },
+        {
+          "user_id": 2,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:48:00Z",
+          "action": "end",
+          "line_number": 48
+        },
+        {
+          "user_id": 2,
+          "feature": "profile",
+          "timestamp": "2024-03-01T10:57:00Z",
+          "action": "start",
+          "line_number": 57
+        }
+      ]
+    },
+    "3": {
+      "settings": [
+        {
+          "user_id": 3,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:11:00Z",
+          "action": "start",
+          "line_number": 11
+        },
+        {
+          "user_id": 3,
+          "feature": "settings",
+          "timestamp": "2024-03-01T10:32:00Z",
+          "action": "end",
+          "line_number": 32
+        }
+      ],
+      "chat": [
+        {
+          "user_id": 3,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:12:00Z",
+          "action": "end",
+          "line_number": 12
+        },
+        {
+          "user_id": 3,
+          "feature": "chat",
+          "timestamp": "2024-03-01T10:27:00Z",
+          "action": "start",
+          "line_number": 27
+        }
+      ],
+      "map": [
+        {
+          "user_id": 3,
+          "feature": "map",
+          "timestamp": "2024-03-01T10:49:00Z",
+          "action": "end",
+          "line_number": 49
+        }
+      ]
+    }
+  }
+}
